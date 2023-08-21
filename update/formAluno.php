@@ -24,7 +24,7 @@
    $varHTML = "
      <form action='salvarDados.php' method='post'>
        <br>Id<br>
-       <input type='text' name='id' value='$id'>
+       <input type='text' name='id' value='$id' readonly>
        <br>Nome<br>
        <input type='text' name='nome' value='$nome'>
        <br>Matricula<br>
