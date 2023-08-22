@@ -5,6 +5,7 @@
 
    include("../util.php");
  
+   echo "<link rel='stylesheet' href='../style.css'>";
    $conn = conecta("pgsql:host=localhost; dbname=turma72a; user=mcperes; 
                     password=ct1ct1");
      
@@ -22,7 +23,7 @@
    $data_nasc = $select['data_nascimento'];
      
    $varHTML = "
-     <form action='salvarDados.php' method='post'>
+     <form action='salvarDados.php' method='post' class = 'update';>
        <br>Id<br>
        <input type='text' name='id' value='$id' readonly>
        <br>Nome<br>
@@ -34,6 +35,7 @@
        <br>Data de Nascimento<br>
        <input type='date' name='data_nasc' value='$data_nasc'>
        <input type='submit' value='Salvar'>
+       
 
      </form>
      ";

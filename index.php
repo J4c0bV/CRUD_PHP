@@ -7,7 +7,7 @@
 
    /// coloca esse css fora e abre do jeito certo ok?
    echo "<link rel='stylesheet' href='style.css'>";
-  echo"<center>";
+   echo"<center>";
    // faz conexao 
    $conn = conecta("pgsql:host=localhost; 
             dbname=turma72a; user=mcperes; 
