@@ -36,10 +36,10 @@
        <input type='date' name='data_nasc' value='$data_nasc'>
        <input type='submit' value='Salvar'>
        
-
-     </form>
-     ";
+     </form>";
      
    echo $varHTML;
+
+   echo "<a href='../index.php'><img src='../imagens/cancel.png' alt='cancelar'></a>";
    
 ?>
