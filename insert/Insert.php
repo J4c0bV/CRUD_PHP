@@ -9,7 +9,6 @@
     $linha = ['idLocal' => $_POST['idlocal'], 'matriculaLocal' => $_POST['matriculalocal'], 'nomeLocal'=>$_POST['nomelocal'],'emailLocal'=>$_POST['emaillocal'], 'dateLocal'=>$_POST['datelocal'] ];
 
     //prepara a linha de insert
-    //$inserSql= 'insert into joaojacob (id, matricula, nome, email, data_nascimento) values (:idLocal, :matriculaLocal, :nomeLocal, :emailLocal, :dateLocal)';
     $inserSql= 'insert into joaojacob values (:idLocal, :matriculaLocal, :nomeLocal, :emailLocal, :dateLocal)';
     $insert = $conn ->prepare($inserSql);
 

@@ -48,8 +48,8 @@
   }
 
   echo "</table>";
-
-  $imgInsert = "<a href='insert/insert.html'><img src='imagens/add.png' alt='insert' width=2%></a>";
+  $vazio="";
+  $imgInsert = "<a href='update/formAluno.php?id=$vazio'><img src='imagens/add.png' alt='insert' width=2%></a>";
   echo $imgInsert;
 
 ?>
